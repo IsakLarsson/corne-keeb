@@ -9,6 +9,21 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+    behaviors {
+        homerow_mods: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS";
+            bindings =
+                <&none>,
+                <&none>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            flavor = "tap-preferred";
+            hold-trigger-key-positions = <16>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
