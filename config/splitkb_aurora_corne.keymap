@@ -10,17 +10,20 @@
 
 / {
     behaviors {
-        homerow_mods: homerow_mods {
+        homerow_mods_left: homerow_mods_left {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
+            label = "HOMEROW_MODS_LEFT";
             bindings =
                 <&kp>,
                 <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            flavor = "tap-preferred";
-            hold-trigger-key-positions = <16>;
+            tapping-term-ms = <280>;
+            flavor = "balanced";
+            hold-trigger-key-positions = <38 37 36>;
+            quick-tap-ms = <175>;
+            hold-trigger-on-release;
+            global-quick-tap;
         };
     };
 
