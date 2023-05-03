@@ -36,10 +36,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-  &kp TAB  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3           &kp N5       &kp N6  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NUMBER_3  &kp QUESTION           &kp BSPC
-   &trans        &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MULTIPLY    &kp EQUAL        &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp NUMBER_6      &kp PLUS  &kp DOUBLE_QUOTES
-&kp LSHFT        &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9           &trans    &kp SLASH         &kp LESS_THAN       &kp GREATER_THAN  &kp NUMBER_9     &kp MINUS          &kp ENTER
-                                           &kp LGUI     &kp SPACE           &trans       &trans               &kp RET               &kp RALT
+  &kp TAB  &kp EXCLAMATION        &kp AT     &kp POUND    &kp DOLLAR   &kp PERCENT        &kp CARET   &kp AMPS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION           &kp BSPC
+   &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp BACKSLASH  &kp EQUAL        &kp LEFT_BRACE        &kp RIGHT_BRACE      &kp PLUS  &kp DOUBLE_QUOTES
+&kp LSHFT     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0        &kp UNDER   &kp PLUS         &kp LESS_THAN       &kp GREATER_THAN     &kp MINUS          &kp ENTER
+                                              &kp LGUI     &kp SPACE        &trans           &trans    &kp RET              &kp RALT
             >;
         };
 
