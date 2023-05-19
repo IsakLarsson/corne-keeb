@@ -55,7 +55,7 @@
             bindings = <
 &trans  &kp EXCLAMATION        &kp AT     &kp POUND    &kp DOLLAR   &kp PERCENT        &kp CARET   &kp AMPS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION   &kp BSPC
 &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp BACKSLASH  &kp EQUAL        &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp ASTERISK  &kp GRAVE
-&trans     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0           &trans   &kp PLUS         &kp LESS_THAN       &kp GREATER_THAN     &kp SLASH  &kp ENTER
+&trans     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0            &none   &kp PLUS         &kp LESS_THAN       &kp GREATER_THAN     &kp SLASH  &kp ENTER
                                              &trans     &kp SPACE        &trans           &trans    &kp RET                &trans
             >;
         };
