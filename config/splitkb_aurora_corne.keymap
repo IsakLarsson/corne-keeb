@@ -53,10 +53,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCLAMATION        &kp AT     &kp POUND    &kp DOLLAR   &kp PERCENT        &kp CARET      &kp LEFT_BRACKET  &kp AMPERSAND      &kp RIGHT_BRACKET  &kp QUESTION   &kp BSPC
-&trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp BACKSLASH  &kp LEFT_PARENTHESIS      &kp EQUAL  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp GRAVE
-&trans     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0            &none              &kp PLUS  &kp LESS_THAN       &kp GREATER_THAN     &kp SLASH  &kp ENTER
-                                             &trans     &kp SPACE        &trans           &trans               &kp RET         &trans
+&trans  &kp EXCLAMATION        &kp AT     &kp POUND    &kp DOLLAR   &kp PERCENT    &kp CARET      &kp LEFT_BRACKET  &kp AMPERSAND      &kp RIGHT_BRACKET  &kp QUESTION   &kp BSPC
+&trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5     &kp PLUS  &kp LEFT_PARENTHESIS      &kp EQUAL  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp GRAVE
+&trans     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0        &none         &kp BACKSLASH  &kp LESS_THAN       &kp GREATER_THAN     &kp SLASH  &kp ENTER
+                                             &trans     &kp SPACE        &trans       &trans               &kp RET         &trans
             >;
         };
 
