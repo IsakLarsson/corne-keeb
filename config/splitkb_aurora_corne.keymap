@@ -33,6 +33,11 @@
             bindings = <&kp TAB>;
             key-positions = <15 16>;
         };
+
+        new_combo {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <19 20>;
+        };
     };
 
     keymap {
