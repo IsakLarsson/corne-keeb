@@ -29,12 +29,12 @@
     combos {
         compatible = "zmk,combos";
 
-        new_combo {
+        tab_combo {
             bindings = <&kp TAB>;
             key-positions = <15 16>;
         };
 
-        new_combo {
+        backspace_combo {
             bindings = <&kp BACKSPACE>;
             key-positions = <19 20>;
         };
